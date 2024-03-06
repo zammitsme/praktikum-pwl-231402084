@@ -1,0 +1,17 @@
+body {
+    background-color: blueviolet;
+    color: #e53b3b;
+    max-width: 600px;
+    margin: auto;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p {
+    line-height: 1.5;
+}
+
+article + article{
+    margin-top: 3rem;
+    padding-top: 3rem;
+    border-top: 1px solid #c5c5c5;
+}
